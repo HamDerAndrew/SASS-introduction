@@ -1,0 +1,31 @@
+@import "mixins";
+@import "vars";
+
+body {
+    background-color: $primary-color;
+}
+
+.btn {
+    height: 50px;
+    width: 200px;
+    font-size: 30px;
+    border: none;
+    border-radius: 4px;
+    color: $secondary-color;
+}
+
+.redButton {
+    @include button(red);
+}
+
+.blueButton {
+    @include button(blue);
+}
+
+.yellowButton {
+    @include button(yellow);
+}
+
+.greenButton {
+    @include button(green);
+}

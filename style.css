@@ -1,0 +1,57 @@
+body {
+  background-color: #c4bebe;
+}
+
+.btn {
+  height: 50px;
+  width: 200px;
+  font-size: 30px;
+  border: none;
+  border-radius: 4px;
+  color: deeppink;
+}
+
+.redButton {
+  background-color: red;
+}
+
+.redButton:hover {
+  background-color: #cc0000;
+  -webkit-transition: .4s;
+  transition: .4s;
+  cursor: pointer;
+}
+
+.blueButton {
+  background-color: blue;
+}
+
+.blueButton:hover {
+  background-color: #0000cc;
+  -webkit-transition: .4s;
+  transition: .4s;
+  cursor: pointer;
+}
+
+.yellowButton {
+  background-color: yellow;
+}
+
+.yellowButton:hover {
+  background-color: #cccc00;
+  -webkit-transition: .4s;
+  transition: .4s;
+  cursor: pointer;
+}
+
+.greenButton {
+  background-color: green;
+}
+
+.greenButton:hover {
+  background-color: #004d00;
+  -webkit-transition: .4s;
+  transition: .4s;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

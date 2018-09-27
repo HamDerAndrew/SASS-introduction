@@ -1,0 +1,8 @@
+@mixin button($color) {
+    background-color: $color;
+        &:hover {
+            background-color: darken($color, $amount: 10%);
+            transition: .4s;
+            cursor: pointer;
+        }
+}
